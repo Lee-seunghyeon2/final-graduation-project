@@ -168,3 +168,7 @@ MCP를 사용하지 않은 경우에는 두 가지 해석을 문장으로 설명
 TypeScript · Node.js · MCP SDK · Zod · Vitest · Anthropic API (Claude Sonnet 4.5, Claude Haiku 5.5)
 
 V2-1 평가에는 공개 benchmark인 CLAMBER와 MuDoCo(CC BY-NC 4.0)를 바탕으로 한국어 작업 상황에 맞게 각색한 사례를 사용하였습니다.
+
+## 라이선스
+
+[MIT License](LICENSE)
