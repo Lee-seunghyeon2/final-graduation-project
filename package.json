@@ -1,0 +1,23 @@
+{
+  "name": "korean-prompt-improver-mcp",
+  "version": "0.1.0",
+  "description": "한국어의 모호한 요청을 실행 전에 분석해, 필요할 때만 사용자에게 질문하는 MCP 서버 (최종 V3)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx experimental/v3/server.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^2.2.0",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}
